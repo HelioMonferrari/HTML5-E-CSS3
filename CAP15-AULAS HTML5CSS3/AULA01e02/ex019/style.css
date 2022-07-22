@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+Tudo que for 'id'identificador em HTML vira '#'cerquilha no CSS
+em HTML é id = em CSS é # 
+em HTML é class = em CSS é . (ponto)
+*/
+body{
+    background-color: #D2EDE5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #525C59;
+}
+
+h1#principal{
+    text-align: center;
+    background-color:#525C59;
+    color: #C3DBD4;
+}
+
+h2 {
+    color: #525C59;
+}
+
+.basico {
+    color: rgb(49, 121, 183);
+    
+}
+.intermediario {
+    color: rgb(127, 40, 221);
+   
+}
+.avancado {
+    color: rgb(251, 117, 96);
+  
+}
+.destaque{
+    background-color: rgba(255, 255, 112, 0.794);
+}
